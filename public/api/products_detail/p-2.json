@@ -1,0 +1,20 @@
+{
+  "id": "p-2",
+  "shopIds": ["s-10","s-11","s-12"],
+  "nearestShop": "s-10",
+  "shop": "正一味",
+  "tag": "免预约",
+  "picture": "https://p1.meituan.net/deal/8d8a080662e316cb545bffdc08877a9944515.jpg%40450w_280h_1e_1c_1l%7Cwatermark%3D1%26%26r%3D1%26p%3D9%26x%3D2%26y%3D2%26relative%3D1%26o%3D20",
+  "product": "20元代金券",
+  "description": "仅售18.6元！价值20元的代金券1张，全场通用，可叠加使用，提供免费WiFi。",
+  "currentPrice": 18.6,
+  "oldPrice": 20,
+  "saleDesc": "已售6034",
+  "detail":{
+      "category": "代金券",
+      "products":[{"name":"代金券", "quantity":"1张", "price":"20元"}],
+      "remark":"免费提供餐巾纸"
+  },
+  "validityPeriod": "2018-10-20至2019-09-15",
+  "purchaseNotes":[{"title":"除外日期","content":"有效期内周末、法定节假日可用"},{"title":"使用时间","content":"团购券使用时间：11:00-22:00"},{"title":"预约提醒","content":"无需预约，消费高峰时可能需要等位"},{"title":"规则提醒","content":"每张团购券建议2人使用"},{"title":"包间","content":"可用包间，条件为：详询商户"},{"title":"堂食外带","content":"仅限堂食，不提供餐前外带，餐毕未吃完可打包，打包费详情咨询商家"},{"title":"商家服务","content":"提供免费WiFi"}]
+}
