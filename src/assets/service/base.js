@@ -40,12 +40,11 @@ function get(url) {
 
 function post(url, request, type) {
   switch(type) {
-    case 'form-data':
-      request = transformRequest(request)
-      break;
     case 'row':
       request = JSON.stringify(request)
       break;
+    default:
+      request = transformRequest(request)
   }
   return axios.post(url, request)
     .then(response => {

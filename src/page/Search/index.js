@@ -29,7 +29,7 @@ class Search extends Component {
         />
         <SearchHistory
           data={historyKeywords}
-          onClaerHistory={this.handleClearHistory.bind(this)}
+          onClaerHistory={this.handleClearHistory}
         />
       </div>
     )
@@ -70,8 +70,7 @@ class Search extends Component {
   }
 
   // 清除历史记录
-  handleClearHistory() {
-    console.log(this)
+  handleClearHistory = () => {
     this.props.clearHistoryKeywords()
   }
 }
